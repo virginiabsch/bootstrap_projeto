@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h6 class="display-5">Julie Architecture Studio</h6>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link display-1 active" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link display-1" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link display-1" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link display-1" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link display-1" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        
+        <section id="about">
+            <div class="shape"></div>
+            <p class="display-6">For us, the design of your Dream House must go beyond aesthetics. It must fulfill the achievements and desires of its residents, making the day-to-day functional and life more enjoyable.
+            </p>
+            <img src="/images/woman-4702060_1280.jpg" alt="">
+        </section>
+
+        <section id="projects">
+                <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img src="https://cdn.pixabay.com/photo/2021/11/08/00/30/bedroom-6778193_1280.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h4 class="display-5">Ana's Room</h4>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2018/01/05/08/39/furniture-3062400_1280.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h4 class="display-5">Jullie and Alice's Room</h4>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2024/07/15/11/54/apartment-8896530_1280.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h4 class="display-5">Living</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class= "carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+        </section>
+
+        <section id="testimonials" class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <div class="feedback">
+                            <img src="/images/avatar.png" class="feedback-avatar" alt="">
+                            <div class="feedback-content">
+                                <p>
+                                    Fulana de tal
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p>
+                                <p>
+                                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Placeat praesentium beatae possimus porro nobis consequuntur sunt,
+                                    iusto eos inventore." 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <div class="feedback">
+                            <img src="/images/avatar.png" class="feedback-avatar" alt="">
+                            <div class="feedback-content">
+                                <p>
+                                    Fulana de tal
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p>
+                                <p>
+                                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Placeat praesentium beatae possimus porro nobis consequuntur sunt,
+                                    iusto eos inventore." 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <div class="feedback">
+                            <img src="/images/avatar.png" class="feedback-avatar" alt="">
+                            <div class="feedback-content">
+                                <p>
+                                    Fulana de tal
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p>
+                                <p>
+                                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Placeat praesentium beatae possimus porro nobis consequuntur sunt,
+                                    iusto eos inventore."  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <article class="card">
+                            <img src="https://cdn.pixabay.com/photo/2022/11/03/17/55/hall-7568043_1280.jpg">
+                            <div class="card-body">
+                                <h4 class="display-6 card-title">Find out what are the future trends in civil construction</h4>                            <a href="#" class="btn btn-primary">Visit</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <article class="card">
+                            <img src="https://cdn.pixabay.com/photo/2021/12/25/13/08/real-estate-6893060_1280.jpg">
+                            <div class="card-body">
+                                <h4 class="display-6 card-title">Learn how Feng Shui can help in your well-being</h4>                            <a href="#" class="btn btn-primary">Visit</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-6">
+                        <article class="card">
+                            <img src="https://cdn.pixabay.com/photo/2017/06/23/17/41/morocco-2435391_1280.jpg">
+                            <div class="card-body">
+                                <h4 class="display-6 card-title">The history of Maroccan Architecture</h4>                            <a href="#" class="btn btn-primary">Visit</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="display-6">Contact us:</h2>
+                        <form>
+                            <label class="for-label"for="nome">Name</label>
+                            <input class="form-control" type="text" id="nome">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control">
+                            <label for="tel" class="form-label">Phone</label>
+                            <input type="tel" class="form-control">
+                            <button class="btn btn-success">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <img class="svg" src="images/wave (5).svg" alt="">
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Virgínia Busachi
+            </span>
+        </div>
+    </footer>
+
+
+</body>
+<script src="lib/bootstrap.bundle.min.js"></script>
+</html>
